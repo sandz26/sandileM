@@ -1,0 +1,64 @@
+body {
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: steelblue;
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background: url('https://github.com/sandz26/sandileM/blob/main/ikigai.jpg?raw=true') center/cover no-repeat;
+    background-color: slategrey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-picture-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 5px solid grey; 
+}
+.profile-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.landing h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.landing p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.landing-btn {
+    text-decoration: none;
+    background-color: grey;
+    color: black;
+    padding: 15px 40px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.landing-btn:hover {
+    background-color: #D9D1E0;
+}
