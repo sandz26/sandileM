@@ -47,6 +47,7 @@ body {
     border-radius: 10px; /* Optional: Adds rounded corners to the container */
     margin-bottom: 150px; /* Optional: Adds space between sections */
     margin-top: 150px;
+    width: 100%;
 }
 
 
@@ -210,6 +211,38 @@ body {
     color: violet;
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-pill {
+        margin: 10px 0;
+    }
+
+    .about-container,
+    .skills-table {
+        max-width: 100%;
+    }
+
+    .personal-details-card,
+    .about-text p,
+    .more-about-me,
+    .skills-list {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .project img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-icons {
+        flex-direction: column;
+    }
+}
 
 
 
