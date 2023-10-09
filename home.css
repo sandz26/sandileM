@@ -221,6 +221,15 @@ html, body {
         margin: 0 20px; /* Adjusted */
     }
 
+    .personal-details-card,
+    .about-text p,
+    .more-about-me,
+    .skills-list {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
     .project img {
         width: 100%;
         height: auto;
