@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.email-link {
+    color: #152028;;
+    text-decoration: none; /* Removes the underline */
+  }
 html, body {
     width: 100%;
     font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
